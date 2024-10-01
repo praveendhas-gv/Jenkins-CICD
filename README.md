@@ -126,8 +126,9 @@ The last three commands edit the argocd-server so that it listens on port 8080 a
 *Logging into jenkins*
 
 Log into Jenkins using the link
-> http://<ec2-public-ip>:8080
-
+```
+http://<ec2-public-ip>:8080
+```
 As per the instruction use the below command to get the admininstrator password
 
 ```
@@ -140,9 +141,9 @@ Create an admin user after entering the password.
 After login, go to Manage Jenkins > Manage Plugins > Available plugins and install "Docker pipeline" and "Sonarqube scanner" plugin
 
 Restart Jenkins after installation of both plugins by going to the following link
-
-> http://<ec2-public-ip>:8080/restart
-
+```
+http://<ec2-public-ip>:8080/restart
+```
 
 Go to Jenkins Dashboard and create new item. 
 
@@ -160,9 +161,9 @@ and then click on save and close
 **Logging in sonarqube**
 
 log into sonarqube using the following link 
-
-> http://<ec2-public-ip>:9000
-
+```
+http://<ec2-public-ip>:9000
+```
 The default username is admin. Password is admin. 
 
 
